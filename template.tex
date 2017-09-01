@@ -1,0 +1,55 @@
+\documentclass{beamer}
+\setbeamertemplate{navigation symbols}{}
+\setbeamertemplate{itemize items}[ball]
+\usetheme{default}
+\usepackage[]{algorithm2e}
+%\usecolortheme{default}
+\setbeamertemplate{navigation symbols}{}
+\beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
+\begin{document}
+\title{Main title}
+\subtitle{subject name, programme}
+\author{Your name}
+\date{\today} 
+%% \begin{frame}
+%%   \titlepage
+%% \end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{images/header}}
+
+\begin{frame}
+
+  {
+    \usebackgroundtemplate{\includegraphics[width=\paperwidth]{images/header.png}}%
+    \titlepage
+    
+  }
+  
+\end{frame}
+
+\usebackgroundtemplate{%
+  \includegraphics[width=\paperwidth,height=\paperheight]{images/background}}
+
+\begin{frame}\frametitle{Table of contents}\tableofcontents
+\end{frame}
+
+
+\section{General overview} 
+
+\begin{frame}\frametitle{Introduction} 
+
+  \begin{block}{Overview}
+    \begin{itemize}
+
+    \item Modern biology relies on computational methods more than ever
+    \item Can we leverage the predictive power of machine learning methods in combination with more conventional methods?
+    \item What are key problems related to binding affinity prediction?
+      
+    \end{itemize}
+  \end{block}
+  
+\end{frame}
+
+
+\end{document}
