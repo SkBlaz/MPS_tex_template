@@ -1,19 +1,20 @@
 \documentclass{beamer}
+\usepackage{xmpmulti}
 \setbeamertemplate{navigation symbols}{}
 \setbeamertemplate{itemize items}[ball]
-\usetheme{default}
+\usepackage{animate}
+\usetheme{CambridgeUS}
+\usepackage[style=ieee]{biblatex}
+\usecolortheme{seahorse}
 \usepackage[]{algorithm2e}
-%\usecolortheme{default}
-\setbeamertemplate{navigation symbols}{}
+\bibliography{references}
+%\setbeamertemplate{navigation symbols}{}
 \beamersetuncovermixins{\opaqueness<1>{25}}{\opaqueness<2->{15}}
 \begin{document}
-\title{Main title}
-\subtitle{subject name, programme}
-\author{Your name}
+\title{title}
+\subtitle{(subtitle)}
+\author{authors}
 \date{\today} 
-%% \begin{frame}
-%%   \titlepage
-%% \end{frame}
 
 \usebackgroundtemplate{%
   \includegraphics[width=\paperwidth,height=\paperheight]{images/header}}
